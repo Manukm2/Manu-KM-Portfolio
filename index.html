@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manu KM Portfolio</title>
     <link rel="icon" href="images/M.png" type="image/icon">
-    <title>Manu km Portfolio</title>
+
     <!-- box icon -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
 
     <!-- custom css -->
@@ -61,7 +61,6 @@
        <img style="height: 520px; width: 520px; border-radius: 100px;" src="images/M.png" alt="No image found">
     </div>
 </section>
-
 <!-- Home section design ended -->
 
 <!-- About section design -->
@@ -79,7 +78,28 @@
                     translate business requirements into technical solutions. Looking to
                     start the career as an entry-level software engineer with a reputed
                     firm driven by technology.</p>
-                <a href="#" class="btn">Read More</a>
+                <button id="show" class="show-modal">Read More</button>
+
+                <!-- hidden start -->
+                 
+                <div class="modal hidden">
+                    <button class="close-modal">&times;</button>
+                    <h1>I'm <span>Manu KM</span> </h1>
+                    <p>
+                        Strong in design and integration with intuitive problem-solving skills.
+                        Passionate about implementing and launching new projects. Ability to
+                        translate business requirements into technical solutions. Looking to
+                        start the career as an entry-level software engineer with a reputed
+                        firm driven by technology.
+                    </p>
+                    <p>
+                        I am a software developer with a passion for creating innovative solutions and delivering quality software products. I have a strong background in software engineering and development, with experience in developing web, mobile, and desktop applications. I am highly experienced in object-oriented programming languages Java, as well as front-end technologies, including HTML, CSS, and JavaScript. I am experienced in working with databases such as SQL Server, MySQL. I am also familiar with version control systems such as Git and Subversion. I am a quick learner and thrive in a fast-paced and dynamic environment. I am always eager to learn new technologies.
+                    </p>
+                    
+                  </div>
+                  <div class="overlay hidden"></div>
+
+                <!-- hidden end -->
             </div>
          </section>
 
@@ -129,7 +149,7 @@
                 </div>
                 <div class="skill_bar">
                     <div class="info">
-                        <p>React js</p>
+                        <p>ReactJs</p>
                         <P class="p2">40%</P>
                     </div>
                     <div class="bar">
@@ -171,74 +191,75 @@
 
 <!-- Projects section design -->
 
-         <section class="projects" id="projects">
-            <h2 class="heading">Lastest <span>Projects</span></h2>
+<section class="projects" id="projects">
+    <h2 class="heading">Lastest <span>Projects</span></h2>
 <!-- first -->
-            <div class="projects-container">
-                <div class="projects-box">
-                    <img height="400px" width="650px" src="images/Guess Image.jpg" alt="No image found"> 
-                    <div class="project-layer">
-                        <h4>Guess my number</h4>
-                        <p>A number guessing game is a simple guessing game where a user is supposed to guess a number between 0 and 20 in a maximum of 5 attempts. The game will end after 5 attempts and if the player fails to guess the number, then he loses the game.</p>
-                        <a href="https://manukm2.github.io/Guess-My-Number-Game/" target="_blank"><i class='bx bx-link-external'></i></a>
-                    </div>
-                </div>
+    <div class="projects-container">
+        <div class="projects-box">
+            <img height="400px" width="650px" src="images/Guess Image.jpg" alt="No image found"> 
+            <div class="project-layer">
+                <h4>Guess my number</h4>
+                <p>A number guessing game is a simple guessing game where a user is supposed to guess a number between 0 and 20 in a maximum of 5 attempts. The game will end after 5 attempts and if the player fails to guess the number, then he loses the game.</p>
+                <a href="https://manukm2.github.io/Guess-My-Number-Game/" target="_blank"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
 
 <!-- second --> 
-                <div class="projects-box">
-                    <img height="400px" width="650px" src="images/CRUD.jpeg" alt="No image found">
-                    <div class="project-layer">
-                        <h4>SQL CRUD App</h4>
-                        <p>This Project is used to control and maintain the accountant salary and students personal and payment details.</p>
-                        <a href="https://github.com/Manukm2/Servlets-CRUD-WebApp" target="_blank"><i class='bx bx-link-external'></i></a>
-                    </div>
-                </div>
-<!-- third -->
-                <div class="projects-box">
-                    <img height="400px" width="650px" src="images/Guess Image.jpg" alt="No image found">
-                    <div class="project-layer">
-                        <h4>Guess my number</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <a href="https://manukm2.github.io/Guess-My-Number-Game/" target="_blank"><i class='bx bx-link-external'></i></a>
-                    </div>
-                </div>
+        <div class="projects-box">
+            <img height="400px" width="650px" src="images/CRUD.jpeg" alt="No image found">
+            <div class="project-layer">
+                <h4>CRUD Web Application</h4>
+                <p>This project uses Java, SQL, Html, Css, JDBC and Java Servlet for basic CRUD Operations</p>
+                <a href="https://github.com/Manukm2/Servlet-CRUD-Web-Application" target="_blank"><i class='bx bx-link-external'></i></a>
             </div>
-         </section>
+        </div>
+<!-- third -->
+        <div class="projects-box">
+            <img height="400px" width="650px" src="images/Product billing.jpg" alt="No image found">
+            <div class="project-layer">
+                <h4>Payment Billing Product Project</h4>
+                <p>This Project is used to control and maintain the accountant salary and students personal and payment details.</p>
+                <a href="https://github.com/Manukm2/PaymentBillingProductProject" target="_blank"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+    </div>
+ </section>
 
 <!-- Projects section design ended -->
 
 <!-- Contact section design -->
 
-    <section class="contact" id="contact">
-               <h2 class="heading">Contact <span>Me</span></h2>
+<section class="contact" id="contact">
+       <h2 class="heading" id="one">Contact <span>Me</span></h2>
 
-         <form action="mailto: manukm969@gmail.com" method="post">
-            <div class="input-box">
-                <input  type="text" placeholder="Full Name" required>
-                <input  type="email" placeholder="Email Address" required>
-            </div>
-            <div class="input-box">
-                 <input type="number" placeholder="Mobile Number">
-                 <input type="text" placeholder="Email Subject">
-            </div>
-
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <input type="submit" value="Send Message" class="btn">
-         </form>
-    </section>
+       <div class="media">
+        <!-- change to your whatsapp number -->
+                   <a href="https://wa.me/917815993817" style="--i:7" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+        
+        <!-- change to your email compose -->
+                   <a href="mailto: manukm969@gmail.com" style="--i:8" target="_blank"><i class="bx bxl-gmail"></i></a>
+        
+        <!-- change to your github link -->
+                   <a href="https://github.com/Manukm2" style="--i:9" target="_blank"><i class="bx bxl-github"></i></a>
+        
+        <!-- change to your linkedin link -->
+                   <a href="https://www.linkedin.com/in/manu-km-7ba832168/" style="--i:10" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                 </div>
+       
+</section>
 <!-- Contact section design ended -->
 
 <!-- footer design -->
 
-      <footer class="footer">
-            <div class="footer-text">
-            </div>
+<footer class="footer">
+    <div class="footer-text">
+    </div>
 
-            <div class="footer-iconTop">
-                 <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
-            </div>
-      </footer>
- 
+    <div class="footer-iconTop">
+         <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+    </div>
+</footer>
+
 <!-- footer design end-->
 
 <!-- scroll reveal -->
@@ -249,7 +270,7 @@
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
 <!-- custom script -->
-  <script src="css and js/index.js"></script>
-  
+<script src="css and js/index.js"></script>
+
 </body>
 </html>
